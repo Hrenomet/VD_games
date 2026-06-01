@@ -15,5 +15,11 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["VD_games"]
 
+[dependency-groups]
+dev = [
+    "ruff>=0.15.15",
+]
+
 [project.scripts]
 VD-games = "VD_games.scripts.VD_main:main"
+VD-even = "VD_games.scripts.VD_even:main"
