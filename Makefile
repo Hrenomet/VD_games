@@ -24,3 +24,9 @@ lint:
 lint-fix:
 	uv run ruff check --fix VD_games
 	uv run ruff format VD_games
+
+VD-gcd:
+	uv run VD-gcd
+
+VD-calc:
+	uv run VD-calc
