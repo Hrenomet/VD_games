@@ -8,13 +8,13 @@ def print_rules() -> None:
 def generate_question() -> tuple:
     num1 = random.randint(1, 50)
     num2 = random.randint(1, 50)
-    operation = random.choice(['+', '-', '*'])
+    operation = random.choice(["+", "-", "*"])
 
     question = f"{num1} {operation} {num2}"
 
-    if operation == '+':
+    if operation == "+":
         correct_answer = num1 + num2
-    elif operation == '-':
+    elif operation == "-":
         correct_answer = num1 - num2
     else:
         correct_answer = num1 * num2

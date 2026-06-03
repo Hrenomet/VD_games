@@ -12,4 +12,6 @@ def generate_question() -> tuple:
     question = f"{num1} {num2}"
     correct_answer = math.gcd(num1, num2)
     return question, correct_answer
+
+
 EOF
